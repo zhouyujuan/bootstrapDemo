@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>xxx后台管理系统</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/content_main.css">
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+      <script src="html5shiv/html5shiv.min.js"></script>
+      <script src="Respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+</head>
+
+<body>
+    
+    <!-- 导航条 导航条要固定需要添加navbar-fixed-top这个属性-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+    <!-- logo和标题 -->
+      <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="logo" src="images/logo.png">
+                </a>
+                <a class="navbar-brand" href="#">xxx后台管理系统</a>
+            </div>
+    <!-- 登录人的信息 -->
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><img src="images/header.jpeg"><a href="#">您好，xxx欢迎您登陆</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 左侧工具栏 -->
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-slidebar">
+                    <li>
+                        <a href="#">系统设置</a>
+                    </li>
+                    <li><a href="#">通告通知</a></li>
+                    <li><a href="#">监督活动</a></li>
+                    <li><a href="#">采购管理</a></li>
+                    <li><a href="#">库存管理</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <!-- 主题的图片 -->
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/icon_1.jpg" alt="卡片一">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/icon_2.jpg" alt="卡片二">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/icon_3.jpg" alt="卡片三">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/icon_3.jpg" alt="卡片三">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/icon_3.jpg" alt="卡片三">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/icon_3.jpg" alt="卡片三">
+                        </a>
+                    </div>
+                </div>
+                <!-- 表格 -->
+                <div class="col-sm-5 leftTable">
+                    <div class="row">
+                        <table class="table table-responsive table-bordered">
+                            <caption>
+                                <h6>食品公司</h6>
+                                <div class="btn-group dropdown">
+                                     <button type="button" class="btn btn-default dropdown-toggle leftBtnGroup" data-toggle="dropdown" aria-expanded="false" target="">
+                                        时间段 <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">本周</a></li>
+                                        <li><a href="#">本月</a></li>
+                                        <li><a href="#">本季度</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">本年</a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>商品名称</th>
+                                    <th>季度</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>牛肉</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>牛肉</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>牛肉</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-sm-5  rightTable">
+                    <div class="row">
+                        <table class="table table-responsive table-bordered">
+                            <div class="row">
+                                <caption>
+                                    <h6>食品公司</h6>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle rightBtnGroup" data-toggle="dropdown">
+                                            时间段 <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">本周</a></li>
+                                            <li><a href="#">本月</a></li>
+                                            <li><a href="#">本季度</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">本年</a></li>
+                                        </ul>
+                                    </div>
+                                </caption>
+                            </div>
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>商品名称</th>
+                                    <th>季度</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>牛肉</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>牛肉</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>牛肉</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 需要jquery，并且需要放到bootstrap前面 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
